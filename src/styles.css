@@ -6,6 +6,24 @@ body {
   background-color: #c1ffff;
 }
 
-.imcomplete-area {
-  　background-color: #c1ffff;
+.incomplete-area {
+  background-color: #c6ffe2;
+}
+
+.complete-area {
+  background-color: #ffffe0;
+}
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+.list-row {
+  align-items: center;
+}
+.list-row div {
+  display: flex;
 }
